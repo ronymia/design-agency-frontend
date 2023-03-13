@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.nav-shadow {
+     box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+}
+
 @layer base {
      body {
           @apply font-Poppins;
