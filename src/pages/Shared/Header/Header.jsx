@@ -59,7 +59,9 @@ export default function Header() {
                               onClick={() => setNavToggle(!navToggle)}
                          />
 
-                         <ul className={`flex flex-col gap-3 items-center text-gray font-medium h-full bg-white w-[250px] fixed top-0 pt-10 z-[-1] transition-all ${navToggle ? "nav-shadow right-[0%]" : "right-[100%]"}`}>
+                         <ul className={`flex flex-col gap-3 items-center text-gray font-medium h-full 
+                         bg-white w-[250px] fixed top-0 pt-10 z-[-1] transition-all 
+                         ${navToggle ? "nav-shadow right-[0%]" : "-right-[100%]"}`}>
                               {menuItem}
                          </ul>
                     </div>
