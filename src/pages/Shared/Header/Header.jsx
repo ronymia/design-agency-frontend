@@ -40,7 +40,7 @@ export default function Header() {
 
 
      return (
-          <header className="w-full px-4 md:px-24 py-5">
+          <header className="w-full px-4 md:px-24 py-5 fixed top-0 z-50">
                <nav className="flex items-center justify-between">
                     <div className="">
                          <img src={logo}
