@@ -12,7 +12,6 @@ export default function Services() {
           }
 
      });
-     console.log(services)
 
      return (
           <section className="flex flex-col items-center justify-center my-20">
